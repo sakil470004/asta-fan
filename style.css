@@ -66,7 +66,7 @@ nav>ul a {
 }
 
 article>p {
-    max-width: 60%;
+    max-width: 70%;
     margin: auto;
     margin-bottom: 1rem;
     font-size: 18px;
@@ -76,7 +76,7 @@ article>p {
 }
 
 .intro {
-    width: 60%;
+   max-width: 70%;
     margin: auto;
 }
 
@@ -87,7 +87,7 @@ article>p {
 }
 
 .astaDream {
-    width: 90%;
+    max-width: 70%;
     margin: auto;
     display: flex;
     align-items: center;
@@ -123,7 +123,7 @@ article>p {
 }
 
 .astaWeapon {
-    width: 90%;
+    max-width: 70%;
     margin: auto;
 }
 
@@ -161,27 +161,30 @@ article>p {
     font-size: 24px;
     padding: 10px;
     display: block;
-    width: 90%;
+    max-width: 70%;
     margin: auto;
-  letter-spacing: 1px;
-  word-spacing: 3px;
-  background-color: lightcoral;
-  border-radius: 1rem;
-  padding:1rem;
-  color:white;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    background-color: lightcoral;
+    border-radius: 1rem;
+    padding: 4rem;
+    color: white;
 }
 
-.fanFrom>label{
+.fanFrom>label {
     display: block;
 }
+
 .fanFrom label, fieldset, input {
     margin-bottom: 20px;
 }
+
 /* select input by type css */
-.fanFrom input[type=text],input[type=email]{
-    padding:0.5rem 1rem; 
-} 
-.fanFrom input[type=submit] ,input[type=reset]{
-    padding:0.5rem 0,7rem;
-    font-size: 24px; 
+.fanFrom input[type=text], input[type=email] {
+    padding: 0.5rem 1rem;
+}
+
+.fanFrom input[type=submit], input[type=reset] {
+    padding: 0.5rem 0, 7rem;
+    font-size: 24px;
 }
